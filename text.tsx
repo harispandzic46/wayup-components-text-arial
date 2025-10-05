@@ -2,28 +2,27 @@ import React from 'react';
 import type { ReactNode } from 'react';
 import styled from 'styled-components';
 
-import {
-  brandDanger,
-  brandFacebook,
-  brandPrimary2,
-  gray1,
-  gray2,
-  grayBlack,
-  white,
-} from '@campusjob/wayup.styles.colors';
-import {
-  bold,
-  fontFamilyProximaNova,
-  fontSizeBase,
-  fontSizeLarge,
-  fontSizeLarger,
-  fontSizeMedium,
-  fontSizeSmall,
-  fontSizeSmaller,
-  fontSizeSmallest,
-  italic,
-  normal,
-} from '@harispandzic46/wayup-styles-fonts-arial';
+// Color constants
+const brandDanger = () => '#dc3545';
+const brandFacebook = '#1877f2';
+const brandPrimary2 = () => '#007bff';
+const gray1 = '#6c757d';
+const gray2 = '#868e96';
+const grayBlack = '#212529';
+const white = '#ffffff';
+
+// Font constants
+const bold = '700';
+const fontFamilyProximaNova = 'Arial, sans-serif';
+const fontSizeBase = '16px';
+const fontSizeLarge = '18px';
+const fontSizeLarger = '20px';
+const fontSizeMedium = '18px';
+const fontSizeSmall = '14px';
+const fontSizeSmaller = '12px';
+const fontSizeSmallest = '10px';
+const italic = 'italic';
+const normal = '400';
 
 export type TextFontSize =
   | 'xxs' // 10px

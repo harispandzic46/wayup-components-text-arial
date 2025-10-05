@@ -11,15 +11,15 @@
     "text.docs.mdx",
     "text.composition.tsx"
   ],
-  "keywords": ["text", "component", "arial", "wayup", "react"],
+  "keywords": [
+    "text",
+    "component",
+    "arial",
+    "wayup",
+    "react"
+  ],
   "author": "Haris Pandzic",
   "license": "MIT",
-  "dependencies": {
-    "@harispandzic46/wayup-styles-fonts-arial": "^1.0.0",
-    "@campusjob/wayup.styles.colors": "^1.0.1",
-    "react": "^18.0.0",
-    "styled-components": "^5.0.0"
-  },
   "peerDependencies": {
     "react": ">=16.8.0",
     "styled-components": ">=4.0.0"
@@ -27,11 +27,10 @@
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/styled-components": "^5.0.0",
-    "typescript": "^4.9.0",
-    "tsc": "^2.0.0"
+    "typescript": "^4.9.5"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "./node_modules/.bin/tsc",
     "prepublishOnly": "npm run build"
   },
   "repository": {

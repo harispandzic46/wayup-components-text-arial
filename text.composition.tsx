@@ -1,7 +1,8 @@
 import React from 'react';
 import { Text } from './text';
-import { brandPrimary2 } from '@campusjob/wayup.styles.colors';
 import styled from 'styled-components';
+
+const brandPrimary2 = () => '#007bff';
 
 const Container = styled.div`
   display: flex;
