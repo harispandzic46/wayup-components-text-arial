@@ -1,0 +1,48 @@
+---
+description: 'A Text component.'
+labels: ['typography']
+---
+
+import { Text } from './text';
+
+## Text component
+
+### Component usage
+```js
+<Text>content<Text>
+```
+
+Parameters
+```
+children: ReactNode,
+letterSpacing?: string,
+size?: TextFontSize,
+color?: string,
+bold?: boolean,
+lineHeight?: string,
+fontStyle?: 'normal' | 'italic',
+element?: 'div' | 'span' | 'p',
+textAlign?: 'left' | 'right' | 'center' | 'justify' | 'initial' | 'inherit',
+display?: string,
+textDecoration?: string,
+hoverTextDecoration?: string,
+cursor?: null | 'text' | 'pointer',
+backgroundColor?: string,
+padding?: string,
+margin?: string,
+textTransform?: string,
+whiteSpace?:
+| null
+| ''
+| 'normal'
+| 'nowrap'
+| 'pre'
+| 'pre-line'
+| 'pre-wrap'
+| 'initial'
+| 'inherit',
+textOverflow?: 'clip' | 'hidden' | 'ellipsis',
+overflow?: 'auto' | 'hidden' | 'scroll' | 'inherit',
+flexBasis?: 'auto' | string, // e.g. 100%, 100px etc
+fullWidth?: boolean,
+```

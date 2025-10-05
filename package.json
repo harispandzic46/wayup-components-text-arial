@@ -1,0 +1,33 @@
+{
+  "name": "@harispandzic46/wayup-components-text-arial",
+  "version": "1.0.0",
+  "description": "Text component for WayUp applications with Arial fonts instead of Proxima Nova",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "text.tsx",
+    "text.docs.mdx",
+    "text.composition.tsx"
+  ],
+  "keywords": ["text", "component", "arial", "wayup", "react"],
+  "author": "Haris Pandzic",
+  "license": "MIT",
+  "dependencies": {
+    "@harispandzic46/wayup-styles-fonts-arial": "^1.0.0",
+    "@campusjob/wayup.styles.colors": "^1.0.1",
+    "react": "^18.0.0",
+    "styled-components": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "styled-components": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harispandzic46/wayup-components-text-arial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harispandzic46/wayup-components-text-arial/issues"
+  },
+  "homepage": "https://github.com/harispandzic46/wayup-components-text-arial#readme"
+}
