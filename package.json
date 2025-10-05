@@ -2,8 +2,10 @@
   "name": "@harispandzic46/wayup-components-text-arial",
   "version": "1.0.0",
   "description": "Text component for WayUp applications with Arial fonts instead of Proxima Nova",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
+    "dist",
     "index.ts",
     "text.tsx",
     "text.docs.mdx",
@@ -21,6 +23,16 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "styled-components": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/styled-components": "^5.0.0",
+    "typescript": "^4.9.0",
+    "tsc": "^2.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

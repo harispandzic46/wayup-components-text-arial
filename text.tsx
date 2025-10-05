@@ -188,10 +188,9 @@ const StyledText = styled.div`
     hoverTextDecoration &&
     `
     :hover {
-      text-decoration: ${hoverTextDecoration}
+      text-decoration: ${hoverTextDecoration};
     }
-  `};
-}
+  `}
 `;
 StyledText.displayName = 'Text';
 
