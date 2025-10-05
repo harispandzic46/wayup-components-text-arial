@@ -37,8 +37,12 @@
     "type": "git",
     "url": "git+https://github.com/harispandzic46/wayup-components-text-arial.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "bugs": {
     "url": "https://github.com/harispandzic46/wayup-components-text-arial/issues"
   },
-  "homepage": "https://github.com/harispandzic46/wayup-components-text-arial#readme"
+  "homepage": "https://github.com/harispandzic46/wayup-components-text-arial#readme",
+  "packageManager": "npm@9.0.0"
 }
