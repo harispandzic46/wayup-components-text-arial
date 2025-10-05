@@ -1,6 +1,6 @@
 {
   "name": "@harispandzic46/wayup-components-text-arial",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Text component for WayUp applications with Arial fonts instead of Proxima Nova",
   "main": "dist/index.js",
   "module": "dist/index.js",
